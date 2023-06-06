@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilo.css" />
+    <script defer src="https://app.embed.im/snow.js"></script>
+</head>
+
+<body>
+    <header>
+        <section class="logo"><img src="proyectoimg/a1.png">
+
+
+        </section>
+
+    </header>
+
+    <main>
+        <section class="cajacompleta">
+
+            <section class="ladoizquierdo">
+                <textarea name="Itexto" class="Itex" id="Itexto" cols="30" rows="10"
+                    placeholder="escriba el texto a encriptar"> </textarea>
+                
+
+                <div class="mensajeAdvertencia"><img src="proyectoimg/Vector1.png">
+                    <p class="mensajeA">solo letras minusculas y sin acentos por favor</p>
+
+                </div>
+
+                <div class="botones">
+                    <button class="B_encriptar" type="button"  onclick="encriptar()"> Encriptar</button>
+                    <button class="B_desencriptar" type="button" onclick="desencriptar()">Desencriptar</button>
+
+                </div>
+
+            </section>
+
+        </section>
+
+        <section class="rectangulo" >
+            <div class="Muñeco"><img src="proyectoimg/Muñeco.png" alt="imagen" id="muñeco" /></div>
+            <div class="paraR" id="paraR">
+            </div>
+            
+        </section>
+        <div class="mensajemayor" id="mensajedeencriptacion">
+            <p class="Mmayor" id="mensajemayor">Ningún mensaje fue encontrado</p>
+        </div>
+        <div class="mensajemenor">
+            <p id="mensajemenor">Ingresa el texto que deseas encriptar o desencriptar</p>
+        </div>
+
+        <div class="copya" >
+            <button  id="copia" class="copiar" type="button" onclick="copiar()"> Copiar </button>
+
+        </div>
+
+        
+
+
+    </main>
+
+    <footer >
+
+        <section class="final">
+            <img   src="proyectoimg/linkedin.png">
+
+        </section>
+
+    </footer>
+
+
+</body>
+<script src="index.js"></script>
+
+
+</html>
